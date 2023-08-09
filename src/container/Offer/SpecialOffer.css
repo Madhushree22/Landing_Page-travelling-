@@ -1,0 +1,121 @@
+.app__SpecialOffer {
+    background-color: var(--color-blue);
+    flex-direction: column;
+
+}
+
+.app__SpecialOffer-offer_img {
+    height: 658px;
+    width: 478px;
+    margin: 12px 95px;
+    object-fit: cover;
+}
+
+.app__SpecialOffer-offer_img img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.app__SpecialOffer-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.app__SpecialOffer-offer {
+    width: 100%;
+
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+
+
+}
+
+.app__SpecialOffer-menu_heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 40px;
+    /* line-height: 48.5px; */
+    letter-spacing: 0.04rem;
+    color: var(--color-white);
+
+}
+
+.app__SpecialOffer-offer_package {
+    /* flex: 1; */
+    flex-direction: column;
+
+    /* width: 100%; */
+}
+
+
+.app__SpecialOffer_offer_items {
+    display: flex;
+    flex-direction: column;
+    margin: 0.1rem 0;
+}
+
+@media screen and (max-width: 2000px) {
+    .app__SpecialOffer-offer_img {
+        width: 650px;
+    }
+
+    .app__SpecialOffer-offer_img img {
+        height: 100%;
+        margin-left: 4px;
+
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__SpecialOffer-offer_img {
+        height: 508px;
+        width: 298px;
+        margin: 12px 4px;
+        object-fit: cover;
+    }
+
+    .app__SpecialOffer-offer_img img {
+        height: 100%;
+        width: 100%;
+        margin-left: 29px;
+
+    }
+
+    .app__SpecialOffer-offer {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__SpecialOffer-offer {
+        flex-direction: column;
+    }
+
+    .app__SpecialOffer-offer_img {
+        height: 508px;
+        width: 348px;
+        margin: 8px 1px;
+        object-fit: cover;
+    }
+
+    .app__SpecialOffer-offer_img img {
+        height: 100%;
+        width: 100%;
+        margin-left: 0.01px;
+        margin-right: 10px;
+
+    }
+
+    .app__SpecialOffer-menu_heading {
+        font-size: 35px;
+    }
+    .app__packages-center
+    {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,58 @@
+.app__traveler
+{
+    background-color: var(--color-blue);
+    width: 100%;
+}
+.app__traveler-content
+{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-top: 1rem  ; 
+}
+.app__traveler-content_qoute
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.app__traveler-content_qoute-p{
+    color: var(--color--white);
+}
+.app__traveler-content_qoute img{
+ width: 47px;
+ height: 40px;
+ margin: 0 1rem 1rem 0;
+}
+
+.app__traveler-sign{
+    height: 1px;
+    width: 100%;
+}
+
+.app__traveler-sign p:first-child{
+    color:var(--color-golden);
+    margin-top: 1rem;
+    
+}
+
+.app__traveler-name
+{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.app__traveler-space
+{
+    padding: 1.8rem;
+}
+
+.app__wrapper_img img:hover
+{
+  box-shadow: none;
+}
+
+.app__founder_title
+{
+    margin-top: 20px;
+}

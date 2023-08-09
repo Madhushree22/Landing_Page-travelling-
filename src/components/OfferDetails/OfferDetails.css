@@ -1,0 +1,38 @@
+.app__offerdetails{
+    width: 100%;
+    margin: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.app__offerdetails-head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1px; */
+}
+
+.app__offerdetails-sub
+{
+    width: 100%;
+    margin-top: 0rem;
+}
+
+
+
+.app__offerdetails-dash
+{
+    width: 50px;
+    height: 1px;
+    background-color: var(--color-golden);
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 650px) {
+    .app__offerdetails-name {
+            flex: 1;
+    
+        }
+}

@@ -1,0 +1,29 @@
+.app__header {
+    background-color: var(--color-blue);
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 70px;
+
+}
+
+.app__wrapper_img img {
+    width: 95%;
+    height: 400px;
+
+}
+
+.app__header_info {
+    margin: "2rem 0  ";
+}
+
+.app__wrapper_img img:hover {
+    box-shadow: 0.5px 1px 2px 2px rgb(217, 226, 253);
+}
+.btn{
+    margin-top: 2rem;
+}
