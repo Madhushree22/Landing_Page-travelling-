@@ -8,7 +8,6 @@ import SubHeading from '../../components/SubHeading/SubHeading';
 const Designation = () => {
   return (
     <div className="app__designation " id='designation'>
-      {/* <h3 className=" app__heading  headtext__cormorant"> Popular Designation</h3> */}
       <div className=" section__padding-des ">
       <SubHeading title="All you need is passport"/>
        
@@ -77,7 +76,6 @@ const Designation = () => {
               <p > <span className="app__designation_name ">MALDIVES</span>
               </p>
              <div className="btn"/>
-              {/* <button type="button" className="custom__button btn">Know More</button> */}
             </div>
           </div>
         </div>

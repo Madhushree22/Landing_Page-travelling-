@@ -14,16 +14,21 @@
 .app__wrapper_img img {
     width: 95%;
     height: 400px;
+    /* box-shadow: -12px  -12px 8px 0.2px rgb(223, 223, 242); */
+    transition: 100ms ease;
 
 }
+
+ .app__wrapper_img img:hover
+{
+box-shadow: 5px 5px 5px 0.5px rgb(223, 223, 242);
+} 
 
 .app__header_info {
     margin: "2rem 0  ";
 }
 
-.app__wrapper_img img:hover {
-    box-shadow: 0.5px 1px 2px 2px rgb(217, 226, 253);
-}
+
 .btn{
     margin-top: 2rem;
 }

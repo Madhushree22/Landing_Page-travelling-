@@ -36,7 +36,6 @@ const Gallery = () => {
                     {galleryimages.map((image,index)=>(
                         <div className='app__gallery-images_card  flex__center'key={'gallery_image-${index +1}'}>
                             <img src={image} alt="gallery"/>
-                            {/* <BsInstagram className='gallery_image-icon'/> */}
                             </div>
                     ))}
 

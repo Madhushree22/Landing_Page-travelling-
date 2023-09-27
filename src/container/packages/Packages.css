@@ -26,7 +26,6 @@
 }
 
 .app__packages-text_heading {
-    /* padding: 12px; */
     color: var(--color-gray);
 }
 
@@ -46,13 +45,16 @@
     transition: .5 ease;
 }
 
+
 .app__packages-details a:hover {
 
     border-bottom: 1px solid var(--color-dark_teal);
 }
 
 .app__packages-img :hover {
-    box-shadow: 0.5px 1px 2px 2px rgb(217, 226, 253);
+
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: -5px 5px 5px 0.5px rgb(217, 226, 253);
     cursor: pointer;
 }
 
@@ -73,7 +75,7 @@
 
     }
 
-     
+
     .app__packages-img img {
         width: 385px;
         height: 193px;

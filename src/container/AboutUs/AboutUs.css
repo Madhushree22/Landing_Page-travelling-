@@ -1,125 +1,120 @@
+.app__aboutus {
+    background-color: var(--color-blue);
+    position: relative;
+}
 
- .app__aboutus {
-     background-color: var(--color-blue);
-     position: relative;
- }
+.app_aboutus-overlay {
+    position: absolute;
+    inset: 0;
+}
 
- .app_aboutus-overlay {
-     position: absolute;
-     inset: 0;
- }
+.app_aboutus-overlay img {
+    width: 441px;
+    height: 495px;
+    z-index: 0;
 
- .app_aboutus-overlay img {
-     width: 441px;
-     height: 495px;
-     z-index: 0;
+}
 
- }
+.app__aboutus-content {
+    width: 100%;
+    z-index: 2;
+}
 
- .app__aboutus-content {
-     width: 100%;
-     z-index: 2;
- }
+.app__aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 94px;
+    flex-direction: column;
 
- .app__aboutus-content_about {
-     flex: 1;
-     display: flex;
-     justify-content: flex-end;
-     align-items: flex-end;
-     margin-top: 94px;
-     flex-direction: column;
+    text-align: right;
+}
 
-     text-align: right;
- }
+.space_between {
+    margin: 3rem 9rem;
+}
 
- .space_between {
-     margin: 3rem 9rem;
- }
+.app__aboutus-content_history {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 94px;
 
- /* .app__aboutus-content_paris img {
-    height: 920px;
- } */
 
- .app__aboutus-content_history {
-     flex: 1;
-     display: flex;
-     justify-content: flex-start;
-     align-items: flex-start;
-     margin-top: 94px;
-     /* margin-left: 280px; */
+    flex-direction: column;
 
-     flex-direction: column;
+    text-align: left;
+}
 
-     text-align: left;
- }
+.app__aboutus-content_history p,
+.app__aboutus-content_about p {
+    margin: 2rem 0;
+    color: var(--color-grey);
+}
 
- .app__aboutus-content_history p,
- .app__aboutus-content_about p {
-     margin: 2rem 0;
-     color: var(--color-grey);
- }
+@media screen and (max-width : 2000px) {
 
- @media screen and (max-width : 2000px) {
-
-    .app__aboutus
-    {
+    .app__aboutus {
         width: 100%;
-        
+
     }
-     .app__aboutus-content_history p,
-     .app__aboutus-content_about p {
-         margin: 4rem 0;
-         color: var(--color-grey);
-     }
- }
 
- @media screen and (max-width : 900px) {
-     .app__aboutus-content {
-         flex-direction: column;
-     }
+    .app__aboutus-content_history p,
+    .app__aboutus-content_about p {
+        margin: 4rem 0;
+        color: var(--color-gray);
+    }
+}
 
-         .app__aboutus-content_about {
-             flex: 1;
-             display: flex;
-             justify-content: flex-end;
-             align-items: flex-end;
-             margin-top: 0.5px;
-             flex-direction: column;
-    
-             text-align: right;
-         }
+@media screen and (max-width : 900px) {
+    .app__aboutus-content {
+        flex-direction: column;
+    }
 
-                 .app__aboutus-content_history {
-                     flex: 1;
-                     display: flex;
-                     justify-content: flex-start;
-                     align-items: flex-start;
-                     margin-top: 296px;
-                     /* margin-left: 280px; */
-        
-                     flex-direction: column;
-        
-                     text-align: left;
-                 }
+    .app__aboutus-content_about {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 0.5px;
+        flex-direction: column;
 
-                 .app_aboutus-overlay img {
-                     width: 441px;
-                     height: 495px;
-                     margin-top: 52px;
-                     z-index: 0;
-        
-                 }
+        text-align: right;
+    }
 
- }
-
- /* 0-650 */
- @media screen and (max-width : 650px) {
-     .app_aboutus-overlay img {
-         width: 80%;
-         height: 350px;
-     }
-
-        
+    .app__aboutus-content_history {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 296px;
 
 
- }
+        flex-direction: column;
+
+        text-align: left;
+    }
+
+    .app_aboutus-overlay img {
+        width: 441px;
+        height: 495px;
+        margin-top: 52px;
+        z-index: 0;
+
+    }
+
+}
+
+/* 0-650 */
+@media screen and (max-width : 650px) {
+    .app_aboutus-overlay img {
+        width: 80%;
+        height: 350px;
+    }
+
+
+
+
+}

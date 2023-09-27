@@ -5,13 +5,11 @@ import './Packages.css';
 import { BsCurrencyRupee } from 'react-icons/bs'
 
 
-{/* <SubHeading title="Vacation calories don’t count. Right?" /> */ }
 
 const Packages = () => {
     return (
         <div className="section__padding-des1 app__packages" id="packages"> 
         <div className="app__packages">
-            {/* <h3 className=" app__heading  headtext__cormorant"> Popular Designation</h3> */}
             <div className=" section__padding-des app__packages-title">
                 <SubHeading title="Vacation calories don’t count. Right?" />
             </div>

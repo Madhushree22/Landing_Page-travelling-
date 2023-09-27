@@ -1,19 +1,15 @@
 import React from 'react'
 import { GiHamburgerMenu } from "react-icons/gi"; //icons
 import { GiRollingSuitcase } from "react-icons/gi";//icons
-import images from '../../constants/images'; //images are stored in asset 
 import './Navbar.css';
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = React.useState(false);
     return (
         <nav className="app__navbar">
-            {/* ----------------------------------------- logo starts--------------------------------------------------------------------------------*/}
             <div className="app__navbar-logo">
            <span style={{ color: "#FFFFFF" }}><span style={{ fontSize: "200%" }}><b>F</b></span>LYNATIONS</span>
             </div>
-            {/* ----------------------------------------- logo ends---------------------------------------------------------------------------------*/}
 
-            {/* ----------------------------------------- links starts---------------------------------------------------------------------------------*/}
 
             <ul className="app__navbar-links">
                 <li className="p__opensans"><a href="#home">Home</a></li>
@@ -21,20 +17,16 @@ const Navbar = () => {
                 <li className="p__opensans"><a href="#designation">Designation</a></li>
                 <li className="p__opensans"><a href="#packages">Packages</a></li>
                 <li className="p__opensans"><a href="#gallery">Gallery</a></li>
-                <li className="p__opensans"><a href="#contact">Contanct</a></li>
+                <li className="p__opensans"><a href="#contact">Contact</a></li>
             </ul>
-            {/* ----------------------------------------- links ends---------------------------------------------------------------------------------*/}
 
-            {/* ----------------------------------------- authenication starts---------------------------------------------------------------------------------*/}
             <div className="app__navbar-login">
                 <a href="#login" className="p__opensans">Log In / Registration</a>
                 <div />
                 <a href="/" className="p__opensans">Book Now</a>
             </div>
 
-            {/* ----------------------------------------- links ends---------------------------------------------------------------------------------*/}
 
-            {/* ----------------------------------------- small screen for phone starts---------------------------------------------------------------------------------*/}
 
             <div className="app__navbar-smallscreen">
                 <GiHamburgerMenu  fontSize={27} onClick={() => setToggleMenu(true)} className="overlay__open"/>
@@ -52,7 +44,6 @@ const Navbar = () => {
                     </div>
                 )}
             </div>
-            {/* ----------------------------------------- small screen for phone starts---------------------------------------------------------------------------------*/}
         </nav>
     );
 };

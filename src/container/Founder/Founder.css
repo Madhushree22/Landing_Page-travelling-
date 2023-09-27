@@ -1,58 +1,52 @@
-.app__traveler
+.app__founder
 {
     background-color: var(--color-blue);
     width: 100%;
 }
-.app__traveler-content
+.app__founder-content
 {
    display: flex;
    flex-direction: column;
    width: 100%;
    margin-top: 1rem  ; 
 }
-.app__traveler-content_qoute
+.app__founder-content_qoute
 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
-.app__traveler-content_qoute-p{
+.app__founder-content_qoute-p{
     color: var(--color--white);
 }
-.app__traveler-content_qoute img{
+.app__founder-content_qoute img{
  width: 47px;
  height: 40px;
  margin: 0 1rem 1rem 0;
 }
 
-.app__traveler-sign{
-    height: 1px;
-    width: 100%;
-}
 
-.app__traveler-sign p:first-child{
+
+.app__founder-sign p:first-child{
     color:var(--color-golden);
     margin-top: 1rem;
     
 }
 
-.app__traveler-name
+.app__founder-name
 {
     font-size: 25px;
     text-transform: capitalize;
 }
 
-.app__traveler-space
+.app__founder-space
 {
     padding: 1.8rem;
 }
 
-.app__wrapper_img img:hover
-{
-  box-shadow: none;
-}
 
 .app__founder_title
 {
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
 }

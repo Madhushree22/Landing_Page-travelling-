@@ -50,11 +50,7 @@ const Adventure = [
         price: '$31',
         tags: 'Ladakh |1 person',
     },
-    // {
-    //     title: 'Trek to the Kuari Pass or ski in the mountains',
-    //     price: '$26',
-    //     tags: 'Auli | Uttarakhand | 1 person',
-    // },
+   
 ];
 
 const awards = [

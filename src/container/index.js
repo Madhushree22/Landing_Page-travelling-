@@ -1,7 +1,6 @@
 import AboutUs from './AboutUs/AboutUS'
 import SpecialOffer from './Offer/SpecialOffer';
 import FindUs from './FindUs/FindUs';
-import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Packages from './packages/Packages';
@@ -14,7 +13,6 @@ export {
     AboutUs,
     SpecialOffer,
     FindUs,
-    Footer,
     Gallery,
     Header,
     Packages,

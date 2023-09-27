@@ -38,17 +38,13 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
     font-size: 40px;
-    /* line-height: 48.5px; */
     letter-spacing: 0.04rem;
     color: var(--color-white);
 
 }
 
 .app__SpecialOffer-offer_package {
-    /* flex: 1; */
     flex-direction: column;
-
-    /* width: 100%; */
 }
 
 
