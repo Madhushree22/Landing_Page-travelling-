@@ -19,9 +19,7 @@ const AboutUS = () => {
                     
                 </div>
 
-                <div className="app__aboutus-content_paris flex__center">
                     <div className="space_between"/>
-                </div>
 
                 <div className="app__aboutus-content_history">
                     <h1 className="headtext__cormorant"> Our History </h1>

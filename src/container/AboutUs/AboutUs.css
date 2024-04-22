@@ -11,13 +11,14 @@
 .app_aboutus-overlay img {
     width: 441px;
     height: 495px;
-    z-index: 0;
+    z-index: 2;
 
 }
 
 .app__aboutus-content {
     width: 100%;
     z-index: 2;
+    
 }
 
 .app__aboutus-content_about {

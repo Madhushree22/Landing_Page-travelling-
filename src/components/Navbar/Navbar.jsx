@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className="app__navbar">
             <div className="app__navbar-logo">
-           <span style={{ color: "#FFFFFF" }}><span style={{ fontSize: "200%" }}><b>F</b></span>LYNATIONS</span>
+                <span style={{ color: "#FFFFFF" }}><span style={{ fontSize: "200%" }}><b>F</b></span>LYNATIONS</span>
             </div>
 
 
@@ -29,14 +29,14 @@ const Navbar = () => {
 
 
             <div className="app__navbar-smallscreen">
-                <GiHamburgerMenu  fontSize={27} onClick={() => setToggleMenu(true)} className="overlay__open"/>
+                <GiHamburgerMenu fontSize={27} onClick={() => setToggleMenu(true)} className="overlay__open" />
                 {toggleMenu && (
                     <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
                         <GiRollingSuitcase fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
                         <ul className="app__navbar-smallscreen_links">
                             <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
                             <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
-                            <li><a href="#designation" onClick={() => setToggleMenu(false)}>Desgination</a></li>
+                            <li><a href="#designation" onClick={() => setToggleMenu(true)}>Desgination</a></li>
                             <li><a href="#packages" onClick={() => setToggleMenu(false)}>Packages</a></li>
                             <li><a href="#gallery" onClick={() => setToggleMenu(false)}>Gallery</a></li>
                             <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
